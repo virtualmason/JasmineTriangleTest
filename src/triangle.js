@@ -4,7 +4,7 @@
       return "equilateral"; 
            
    }  else if 
-       (one + two > three === false|| one + three >= two === false||three + two > one === false ) {
+       (one + two > three === false|| one + three > two === false||three + two > one === false ) {
         return "invalid Triangle"; 
 }
    

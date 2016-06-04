@@ -15,7 +15,9 @@ describe("Triangle",function(){
         expect(Triangle.triTypes(2,2,3)).toEqual("isosceles");        
     });    
     
-    
+    it("If triangle as 3 unequal sides that are valid scalene", function(){
+        expect(Triangle.triTypes(3,5,4)).toEqual("scalene");        
+    });    
     
 });
     
