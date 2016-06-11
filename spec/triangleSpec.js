@@ -1,5 +1,5 @@
 describe("Triangle",function(){
-    it("should have three sides", function(){        
+    it("should have three sides(arguments)", function(){        
         
         expect(Triangle.numArgs(1,1,1)).toEqual(3);       
     });

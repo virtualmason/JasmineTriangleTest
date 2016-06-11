@@ -17,7 +17,9 @@
         
    },
        numArgs : function(){
+           if(arguments.length >=3 && arguments[0]+arguments[1]+arguments[2] >=3){
        return  arguments.length;
+           } else alert("Enter three sides(arguments) dude!!");
 }
    
 };
